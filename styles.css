@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.odin-recipes-header {
+    /* font-family: Add when I fix the fonts issue on my machine */
+    font-size: 60px;
+    color: purple;
+    background-color: white;
+    border: 10px dotted purple;
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+.index-body {
+    background-color:#b9ffff
+}
