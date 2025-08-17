@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    background-color: rgb(152, 238, 238);
 }
 
+.page-color {
+    background-color: rgb(152, 238, 238);
+}
 /* Index page styles */
 .odin-recipes-header {
     /* font-family: Add when I fix the fonts issue on my machine */
