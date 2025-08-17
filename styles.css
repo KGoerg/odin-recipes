@@ -1,8 +1,10 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    background-color: rgb(152, 238, 238)
 }
 
+/* Index page styles */
 .odin-recipes-header {
     /* font-family: Add when I fix the fonts issue on my machine */
     font-size: 60px;
@@ -15,6 +17,7 @@
     margin: 10px auto;
 }
 
-.index-body {
-    background-color:#b9ffff
+/* Below isn't working :( */
+.index-desc {
+    background-color: white;
 }
