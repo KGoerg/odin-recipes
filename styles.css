@@ -4,32 +4,64 @@
 }
 
 .page-color {
-    background-color: rgb(152, 238, 238);
+    background-color: rgb(100, 219, 219);
 }
+
 /* Index page styles */
 .odin-recipes-header {
     /* font-family: Add when I fix the fonts issue on my machine */
     font-size: 60px;
     color: purple;
     background-color: white;
-    border: 10px dotted purple;
-    width: 600px;
+    border: 10px dotted rgb(255, 191, 14);
+    border-radius: 50px;
+    width: 500px;
     text-align: center;
     padding: 20px;
     margin: 10px auto;
 }
 
 .index-container {
-    font-size: 30px;
+    font-size: 40px;
+    text-align: center;
     background-color: white;
     border: 5px dotted purple;
-    width: 700px;
-    height: 500px;
+    border-radius: 50px;
+    width: 900px;
+    height: 700px;
     padding: 20px;
     margin: 40px auto;
 }
 
 .index-desc {
-    background-color: white;
-    margin-bottom: 20px;
+    color: purple;
+    margin: 30px 10px 50px 10px;
+}
+
+.recipes-links-container {
+    background-color: rgb(206, 255, 255);
+    list-style-type: none;
+    padding: 30px 0;
+    font-size: 60px;
+    margin: 40px auto 50px auto;
+    text-align: center;
+    border: 5px dotted rgb(255, 191, 14);
+    border-radius: 50px;
+    width: 700px;
+    height: 300px;
+}
+
+.banana-muffins-link {
+    color: burlywood;
+    text-decoration: none;
+}
+
+.shells-and-cheese-link {
+    color: rgb(255, 191, 14);
+    text-decoration: none;
+}
+
+.creamy-beef-gnocchi-link {
+    color: rgb(107, 84, 58);
+    text-decoration: none;
 }
