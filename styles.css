@@ -9,24 +9,24 @@
 
 /* Index page styles */
 
-.index .recipes-header,
+.index .page-title,
 .index.container,
 .recipes-links.container {
     text-align: center;
 }
 
-.index .recipes-header,
+.index .page-title,
 .index.container {
     background-color: white;
     border-radius: 50px
 }
 
-.index .recipes-header,
+.index .page-title,
 .recipes-links.container {
     font-size: 60px;
 
 }
-.index .recipes-header {
+.index .page-title {
     /* font-family: Add when I fix the fonts issue on my machine */
     color: purple;
     border: 10px dotted rgb(255, 191, 14);
@@ -40,7 +40,7 @@
     border: 5px dotted purple;
     width: 1200px;
     height: 700px;
-    padding: 20px;
+    padding: 20px auto;
     margin: 40px auto;
 }
 
@@ -90,13 +90,18 @@
     background-color: burlywood;
 }
 
-.banana-muffin .recipes-header {
+#banana-muffins {
+    display: inline-block;
+}
+
+.banana-muffin .page-title {
     background-color: rgb(233, 219, 202);
     text-align: center;
     width: 500px;
     border: 5px dotted black;
     border-radius: 20px;
     margin: 10px auto;
+    font-size: 45px;
 }
 
 .home.button {
@@ -132,19 +137,31 @@ figcaption {
 }
 
 .banana-muffin .container {
-    width: 600px;
+    width: 800px;
     margin: 10px auto;
     border: 5px dotted black;
     border-radius: 20px;
     background-color: rgb(233, 219, 202);
 }
 
-.container .desc {
-    margin: 10px;
+.container {
+    padding: 30px;
+    font-size: 22px;
 }
 
-/* Not working -- need to figure out later */
-.banana-muffin.desc p {
-    color: purple;
+.container h2 {
+    padding: 0px 10px;;
 }
+
+.container .desc {
+    margin: 0px 10px 10px 10px;
+}
+
+.container h3 {
+    margin: 20px 0px 0px 10px;
+}
+
+
+
+
 
