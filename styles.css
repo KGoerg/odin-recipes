@@ -8,25 +8,36 @@
 }
 
 /* Index page styles */
+
+.index .recipes-header,
+.index.container,
+.recipes-links.container {
+    text-align: center;
+}
+
+.index .recipes-header,
+.index.container {
+    background-color: white;
+    border-radius: 50px
+}
+
+.index .recipes-header,
+.recipes-links.container {
+    font-size: 60px;
+
+}
 .index .recipes-header {
     /* font-family: Add when I fix the fonts issue on my machine */
-    font-size: 60px;
     color: purple;
-    background-color: white;
     border: 10px dotted rgb(255, 191, 14);
-    border-radius: 50px;
     width: 500px;
-    text-align: center;
     padding: 20px;
     margin: 10px auto;
 }
 
 .index.container {
     font-size: 40px;
-    text-align: center;
-    background-color: white;
     border: 5px dotted purple;
-    border-radius: 50px;
     width: 900px;
     height: 700px;
     padding: 20px;
@@ -42,28 +53,29 @@
     background-color: rgb(206, 255, 255);
     list-style-type: none;
     padding: 30px 0;
-    font-size: 60px;
     margin: 40px auto 50px auto;
-    text-align: center;
     border: 5px dotted rgb(255, 191, 14);
     border-radius: 50px;
     width: 700px;
     height: 300px;
 }
 
+#banana-muffins-link,
+#shells-and-cheese-link,
+#creamy-beef-gnocchi-link {
+    text-decoration: none;
+}
+
 #banana-muffins-link {
     color: burlywood;
-    text-decoration: none;
 }
 
 #shells-and-cheese-link {
     color: rgb(255, 191, 14);
-    text-decoration: none;
 }
 
 #creamy-beef-gnocchi-link {
     color: rgb(107, 84, 58);
-    text-decoration: none;
 }
 
 /* Banana Muffins Styles */
@@ -74,7 +86,6 @@
 
 .banana-muffin .recipes-header {
     background-color: white;
-
 }
 
 
