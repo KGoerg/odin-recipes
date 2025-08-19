@@ -3,12 +3,12 @@
     margin: 0;
 }
 
-.page-color {
+.index.page-color {
     background-color: rgb(100, 219, 219);
 }
 
 /* Index page styles */
-.odin-recipes-header {
+.index .recipes-header {
     /* font-family: Add when I fix the fonts issue on my machine */
     font-size: 60px;
     color: purple;
@@ -21,7 +21,7 @@
     margin: 10px auto;
 }
 
-.index-container {
+.index.container {
     font-size: 40px;
     text-align: center;
     background-color: white;
@@ -33,12 +33,12 @@
     margin: 40px auto;
 }
 
-.index-desc {
+.index.desc {
     color: purple;
     margin: 30px 10px 50px 10px;
 }
 
-.recipes-links-container {
+.recipes-links.container {
     background-color: rgb(206, 255, 255);
     list-style-type: none;
     padding: 30px 0;
@@ -51,17 +51,30 @@
     height: 300px;
 }
 
-.banana-muffins-link {
+#banana-muffins-link {
     color: burlywood;
     text-decoration: none;
 }
 
-.shells-and-cheese-link {
+#shells-and-cheese-link {
     color: rgb(255, 191, 14);
     text-decoration: none;
 }
 
-.creamy-beef-gnocchi-link {
+#creamy-beef-gnocchi-link {
     color: rgb(107, 84, 58);
     text-decoration: none;
 }
+
+/* Banana Muffins Styles */
+
+.banana-muffin.page-color {
+    background-color: burlywood;
+}
+
+.banana-muffin .recipes-header {
+    background-color: white;
+
+}
+
+
