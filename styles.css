@@ -85,7 +85,60 @@
 }
 
 .banana-muffin .recipes-header {
+    background-color: rgb(233, 219, 202);
+    text-align: center;
+    width: 500px;
+    border: 5px dotted black;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+.home.button {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    width: 80px;
+    background-color: rgb(233, 219, 202);
+    border: 0px solid white;
+    border-radius: 10px;
+    font-size: large;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.banana-muffin .home.button:hover {
     background-color: white;
 }
 
+img {
+    display: block;
+    margin: 20px auto 0px auto;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    margin: 0px;
+}
+
+.banana-muffin .container {
+    width: 600px;
+    margin: 10px auto;
+    border: 5px dotted black;
+    border-radius: 20px;
+    background-color: rgb(233, 219, 202);
+}
+
+.container .desc {
+    margin: 10px;
+}
+
+/* Not working -- need to figure out later */
+.banana-muffin.desc p {
+    color: purple;
+}
 
